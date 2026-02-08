@@ -7,6 +7,6 @@ window.addEventListener('load', function() {
     if (currentUser) {
         document.getElementById('userName').textContent = `Chào, ${currentUser.name}`;
     } else {
-        document.getElementById('userName').textContent = `Chào, Khách`;
+        document.getElementById('userName').textContent = `Chào, bạn`;
     }
 });
